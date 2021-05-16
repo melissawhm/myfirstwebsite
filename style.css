@@ -1,0 +1,25 @@
+/*Selector {
+	Property: value;
+}*/
+
+h1 {
+	color: pink;
+	font-family: "Calibri";
+}
+
+h1 {
+	background-color: grey;
+}
+
+h1 {
+  	width: 100%;
+  	/*height: 100px;*/
+  	background: red;
+  	transition: background 2s;
+  	transition: color 2s;
+}
+
+h1:hover {
+	color: green;
+  	background: blue;
+}
